@@ -17,3 +17,4 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 sed -i '$a src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git' feeds.conf.default
 git clone https://github.com/kenzok8/luci-theme-ifit.git package/luci-theme-ifit
+git clone https://github.com/immortalwrt/homeproxy.git package/luci-app-homeproxy
